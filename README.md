@@ -1,6 +1,6 @@
 # Multiplatform Project Sample for Kotlin
 
-This project is a sample multi-platform project for Kotlin, that is, a project that can target multiple platforms.
+This project is a sample [multi-platform project for Kotlin](https://kotlinlang.org/docs/reference/multiplatform.html), that is, a project that can target multiple platforms.
 
 The project consists of 3 modules
 
