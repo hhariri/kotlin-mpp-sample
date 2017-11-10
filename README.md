@@ -1,5 +1,8 @@
 # Multiplatform Project Sample for Kotlin
 
+
+**Important** MPP and this project requires Kotlin 1.2-rc39 or higher, and IntelliJ IDEA 2017.3 EAP or higher. 
+
 This project is a sample [multi-platform project for Kotlin](https://kotlinlang.org/docs/reference/multiplatform.html), that is, a project that can target multiple platforms.
 
 The project consists of 3 modules
