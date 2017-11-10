@@ -1,0 +1,5 @@
+rootProject.name = 'multiplatform'
+include 'jvm'
+include 'common'
+include 'js'
+

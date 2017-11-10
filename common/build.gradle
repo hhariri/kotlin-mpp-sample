@@ -1,0 +1,27 @@
+buildscript {
+    ext.kotlin_version = '1.2.0-rc-39'
+
+    repositories {
+        maven {     url 'http://dl.bintray.com/kotlin/kotlin-eap-1.2' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+group 'com.hadihariri'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'kotlin-platform-common'
+
+repositories {
+    maven {     url 'http://dl.bintray.com/kotlin/kotlin-eap-1.2' }
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-common:$kotlin_version"
+    testCompile "org.jetbrains.kotlin:kotlin-test-annotations-common:$kotlin_version"
+    testCompile "org.jetbrains.kotlin:kotlin-test-common:$kotlin_version"
+}
