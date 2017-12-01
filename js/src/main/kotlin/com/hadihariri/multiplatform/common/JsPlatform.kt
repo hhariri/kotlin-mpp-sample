@@ -29,5 +29,5 @@ actual class Date actual constructor() {
 }
 
 actual fun platformMessage(message: Message) {
-    println("(JS) [${message.priority}] ${message.priority}")
+    println("(JS) [${message.priority}] ${message.text}")
 }
